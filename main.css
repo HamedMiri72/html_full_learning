@@ -1,15 +1,30 @@
-html {
-    font-size: 22px
+
+* {
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #333;
-    color: whitesmoke;
+    background-color: rgb(195, 195, 195);
 }
 
-a {
-    color: aliceblue;
+
+#main-heading {
+    text-align: center;
+    padding: 24px, 0, 24px, 0;
 }
+
+#nav-bar {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-items {
+    color: white;
+
 
 a:visited {
     color: lightgray;
@@ -17,4 +32,5 @@ a:visited {
 
 a:hover, a:active {
     color: #eee;
+
 }
