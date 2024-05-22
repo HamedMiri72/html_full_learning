@@ -24,4 +24,13 @@ body {
 
 .nav-items {
     color: white;
+
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover, a:active {
+    color: #eee;
+
 }
