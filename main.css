@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(195, 195, 195);
+}
+
+
+#main-heading {
+    text-align: center;
+    padding: 24px, 0, 24px, 0;
+}
+
+#nav-bar {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-items {
+    color: white;
+}
